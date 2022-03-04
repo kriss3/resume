@@ -17,6 +17,10 @@ h2 {
     padding-bottom: 1em;
 }
 
+.jobcontent > :first-child {
+    font-weight: bold;
+}
+
 main { 
     display: grid;
     grid-template-columns: 40% 60%;

@@ -1,3 +1,5 @@
 $().ready(() => {
-    $('#accordion').accordion();
+    $('#accordion').accordion({
+        collapsible: true
+    });
 });
