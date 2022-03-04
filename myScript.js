@@ -1,3 +1,3 @@
-$().ready(function() {
-    $("#accordion").accordion();
+$().ready(() => {
+    $('#accordion').accordion();
 });
