@@ -2,6 +2,7 @@
 	<head>
 		<link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 		<title>Your Name resume</title>
 	</head>
 
@@ -52,11 +53,20 @@
 				</section>
 				<section>
 					<h2>WORK EXPERIENCE</h2>
-					<h3><b>.NET Developer - Lead</b></h3>
-                    <p>Company Name | 2008 - 2010</p>
-                    <p>
-                        Describe what you did in this position with one summary sentence and no more than 3 bullet points with specific highlights
-                    </p>
+
+					<div id="accordion">
+						<h3><b>.NET Developer - Lead</b></h3>
+						<div>
+							<p>Industrial Alliance | September 2021 - current</p>
+							<p>Describe what you did in this position with one summary sentence and no more than 3 bullet points with specific highlights</p>
+						</div>
+						<h3><b>.NET Developer</b></h3>
+						<div>
+							<p>Industrial Alliance | March 2020 - September 2021</p>
+							<p>Describe what you did in this position with one summary sentence and no more than 3 bullet points with specific highlights</p>
+						</div>
+					</div>
+					
                     <ul>
                         <li>Cool accomplishment</li>
                         <li>Cool accomplishment</li>
@@ -66,4 +76,15 @@
 			</article>
 		</main>
 	</body>
+	<script src="/myScript.js"></script>
+
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  		<link rel="stylesheet" href="/resources/demos/style.css">
+  		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  		<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+	<script>
+		$().ready(function() {
+			$('#accordion').accordeon();
+		});
+	</script>
 </html>
