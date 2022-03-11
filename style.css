@@ -68,4 +68,9 @@ h1, h2 {
     grid-template-columns: 45% 45%;
 }
 
+ul[title]::before {
+    content: attr(title);
+    font-weight: bold;
+}
+
 
